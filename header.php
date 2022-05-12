@@ -6,9 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Blog Site Template">
-    <meta name="author" content="https://youtube.com/FollowAndrew">    
+    <meta name="description" content="Blog Site Template">   
     <link rel="shortcut icon" href="/wp-content/themes/Forest Theme/assests/images/logo.png"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
     
     <?php
     wp_head();
@@ -21,8 +23,7 @@
     <header class="header text-center">	    
 	    <a class="site-title pt-lg-4 mb-0" href="index.html">
 
-        <?php echo get_bloginfo('name'); 
-        ?>
+       
         </a>
         
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
@@ -32,7 +33,7 @@
 			</button>
 
 			<div id="navigation" class="collapse navbar-collapse flex-column" >
-				<img class="mb-3 mx-auto logo" src="images/logo.png" alt="logo" >		
+						
                 
                 
                 <?php
@@ -48,13 +49,7 @@
 				
 				
 				<hr>
-				<ul class="social-list list-inline py-3 mx-auto">
-					<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-					<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-					<li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
-					<li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-					<li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
-				</ul>
+				
 
 			</div>
 		</nav>
