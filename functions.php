@@ -42,4 +42,39 @@ function forest_register_scripts(){
 
 add_action( 'wp_enqueue_scripts', 'forest_register_scripts');
 
+
+function create_post_type() {
+    register_post_type( 'wp_FAQs',
+      array(
+        'labels' => array(
+          'name' => __( 'FAQs' ),
+          'singular_name' => __( 'FAQ' )
+        ),
+        'public' => true,
+        'has_archive' => true,
+        'supports' => array( 'title', 'editor', 'custom-fields','thumbnail' ),
+      )
+    );
+  }
+  add_action( 'init', 'create_post_type' );
+
+function forest_widget_areas(){
+    register_sidebar(
+        array(
+            'before_title' => '',
+            'after_title' => '',
+            'before_widget' => '',
+            'after_widget' => ''
+
+        ),
+        array(
+            'name' => 'Sidebar Area',
+            'id' => 'Sidebar-1',
+            'description' => 'Sidebar widget area'
+        )
+        );
+}
+
+add_action( 'widgets_init', 'forest_widget_areas');
+
 ?>

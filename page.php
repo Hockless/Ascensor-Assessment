@@ -1,8 +1,10 @@
-<?php
+
+    <div class="page_container">
+    <?php
     get_header();
 ?>  
-   
-		<article class="content px-3 py-5 p-md-5">
+
+		<article class="container_wrap">
 	    
         <?php
 
@@ -21,8 +23,8 @@
 
 
 	    </article>
-	   
-    
-   <?php
+	    <?php
    get_footer();
    ?>
+    </div>
+  

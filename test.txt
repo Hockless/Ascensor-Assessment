@@ -1,0 +1,25 @@
+ <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			
+
+			<div id="navigation" class="" >
+						
+                
+                
+                <?php
+                    wp_nav_menu(
+                        array(
+                            'menu' => 'primary',
+                            'container' => '',
+                            'theme_location' => 'primary',
+                            'items_wrap' => '<ul id="" class="text-sm-center text-md-left">%3$s</ul>'
+                        )
+                    );
+                ?>
+				
+				
+				<hr>
+				
+
+			</div>
+		</nav>
