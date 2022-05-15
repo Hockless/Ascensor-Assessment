@@ -22,29 +22,26 @@
     
     <header class="header text-center">	    
 	  
-    <nav class="navbar navbar-expand-lg navbar-light bg-light background-color: rgb(42, 42, 42);
-    color: rgb(255, 255, 255);">
+    <nav class="navbar">
   <a class="navbar-brand" href="#">Company Name</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+ 
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav" style="position:fixed; top:4%; right:0%; ">
-      <li class="nav-item">
+  <div class="nav-menubox">
+    <ul class="navbar-items" style="">
+      <li class="navbar-item">
         <a class="nav-link" href="http://ascensor-assessment.local/home">Home</a>
       </li>
-      <li class="nav-item">
+      <li class="navbar-item">
         <a class="nav-link" href="http://ascensor-assessment.local/about">About</a>
       </li>   
-      <li class="nav-item">
+      <li class="navbar-item">
         <a class="nav-link" href="http://ascensor-assessment.local/faqs">FAQs</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://ascensor-assessment.local/blog">Blog</a>
+      <li class="navbar-item">
+        <a class="nav-link" href="http://ascensor-assessment.local/233-2/">Blog</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://ascensor-assessment.local/wp_admin">Admin Page</a>
+      <li class="navbar-item">
+        <a class="nav-link" href="http://ascensor-assessment.local/admin-options">Admin Page</a>
       </li>
       
     </ul>
