@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     font-family: 'Quicksand', sans-serif;
     
+    
 }
 ul {
     list-style-type: none;
@@ -102,15 +103,6 @@ color: rgb(255, 255, 255);
 }
 
 
-
-/* .page_container{
-    position: relative;
-    min-height: 100vh;
-
-} */
-/* .container_wrap{
-    padding-bottom: 2.5rem;
-} */
 .su-custom-gallery {
     margin-bottom: 10em;
 }
@@ -136,13 +128,18 @@ color: rgb(255, 255, 255);
   padding-right: 60vh;
 }
 
+.has-text-align-center{
+  padding-top: 6vh;
+  padding-bottom: 5vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
 .wp-block-cover__gradient-background{
   padding-bottom: 5%;
 }
 
-.has-small-font-size{
 
-}
 
 .wp-block-image{
   margin: 0%;
@@ -150,21 +147,43 @@ color: rgb(255, 255, 255);
 }
 .wp-container-13{
   border: 0%;
-}
-
-.socials-links{
+  padding: 0%;
+  margin: 0%;
+  grid-template-columns: 2fr auto;
   
 }
 
+
+
 .wp-block-columns {
-  display: flex;
-  margin-bottom: 0em;
+  padding-left: 20vh;
+  padding-right: 20vh;
   box-sizing: border-box;
   flex-wrap: wrap;
 }
+
+
 
 .vertical-menu{
   padding: 4px;
   background-color: rgb(42, 42, 42);
     color: rgb(255, 255, 255);
 }
+
+#fbuilder_1{
+  padding-left: 70vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.navigation{
+  display: inline-block;
+  max-width: 200vh;
+  
+}
+
+.nav-links{
+  display: inline-block;
+  max-width: 200vh;
+}
+
