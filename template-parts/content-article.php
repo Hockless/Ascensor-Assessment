@@ -1,19 +1,18 @@
-
 <div class="container">
-<h1>Hello</h1>
-	<header class="content-header">
-		<div class="meta mb-3">
-		<span class="date"><?php the_date(); ?></span>
-		<?php
+
+    <header class="content-header">
+        <div class="meta mb-3">
+            <span class="date"><?php the_date(); ?></span>
+            <?php
 			the_title('<span class="tag"><i class="fa fa-tag"></i>', '</span><span class="tag"><i class="fa fa-tag"></i>', '</span>');
 		?>
-		
-		
-	
-	</div>
-	</header>
 
-<?php
+
+
+        </div>
+    </header>
+
+    <?php
 the_content();
 ?>
 

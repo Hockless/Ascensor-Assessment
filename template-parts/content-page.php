@@ -1,7 +1,7 @@
 <div class="container">
-	
 
-<?php
+
+    <?php
 the_content(); the_title();
 ?>
 
